@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, user-scalable=no">
+       <meta name="author" content="Leandro Guerrero">
+       <meta name="keywords" content="html,tablas, formularios">
+       <meta name="description" content="Evaluacion final fundamentos basicos de html">
+        <title>Hoja de Vida: Educacion</title>
+    </head>
+    <body>
+
+        <section id="encabezado-comun">
+          <header>
+            <svg width="200px" height="200px">
+            <image svg width="200" height="200" xlink:href="img/logo.svg" >
+            </svg>
+            <h1>HOJA DE VIDA</h1>
+        </header>
+            <h2>DATOS PERSONALES</h2>
+                <h3><strong>Nombres: </strong></h3>Leandro Alexander <br><br>
+                <h3><strong>Apellidos: </strong></h3>Guerrero Montoya <br><br>
+                <h3><strong>Fecha de nacimiento: </strong></h3>21 de septiembre de 1975 <br><br>
+                <h3><strong>Lugar de nacimiento: </strong></h3>Medellín, Colombia <br><br>
+            <h2><strong>ENLACES DEL MENÚ</strong></h2>
+                <nav>
+                  <strong> <a href="index.html">Inicio</a>  |
+                    <a href="educacion.html">Educación</a>   |
+                    <a href="experiencia.html">Experiencia</a></strong>
+                </nav>
+                <br><br>
+        </section>
+
+        <section id="educacion">
+
+          <h2>Educación</h2>
+
+                          <table border="1" cellpadding="10" cellspacing="0">
+                              <tr>
+                                  <th>Año</th>
+                                  <th>Institución</th>
+                                  <th>Lugar</th>
+                                  <th>¿Culminó?</th>
+                              </tr>
+                              <tr>
+                                  <td>1992</td>
+                                  <td>Instituto Tecnico Pascual Bravo</td>
+                                  <td>Medellin</td>
+                                  <td>Si</td>
+                              </tr>
+                              <tr>
+                                  <td>2003</td>
+                                  <td>Instutucion Universitaria Salazar y Herrera</td>
+                                  <td>Medellin</td>
+                                  <td>Si</td>
+                              </tr>
+                              <tr>
+                                  <td>2015</td>
+                                  <td>Politecnico Jaime Isaza Cadavid</td>
+                                  <td>Medellin</td>
+                                  <td>Si</td>
+                              </tr>
+                          </table>
+
+                          <h1>Agregar Estudios</h1>
+                          <form action="">
+                              <p>
+                                  <label for="año">Selecciona el año: </label>
+                                  <br>
+                                  <select name="año">
+                                      <option value="2017">2019</option>
+                                      <option value="2017">2018</option>
+                                      <option value="2017">2017</option>
+                                      <option value="2016">2016</option>
+                                      <option value="2015">2015</option>
+                                      <option value="2014">2014</option>
+                                      <option value="2013">2013</option>
+                                      <option value="2017">2012</option>
+                                      <option value="2017">2011</option>
+                                      <option value="2017">2010</option>
+                                  </select>
+                              </p>
+                              <p>
+                                  <label for="Institucion">Institución:</label>
+                                  <input type="text" name="institucion" required>
+                              </p>
+                              <p>
+                                  <label for="lugar">Lugar:</label>
+                                  <textarea name="lugar"></textarea>
+                              </p>
+                              <p>
+                                  <input type="submit" value="Enviar">
+                              </p>
+                              <br><br>
+                          </form>
+
+        </section>
+
+                <footer>
+                  <p><strong>INFORMACION DE CONTACTO</strong></p>
+
+                        <strong>E-mail: </strong><a href="mailto:rosoman123@hotmail.com">rosoman123@hotmail.com</a>       |
+                        <strong>Teléfono: </strong> <a href="tel:+573014411205">+57 301 4411205</a>        |
+                        <strong>Facebook: </strong><a href="https://www.facebook.com/alex">Mi Perfil</a>
+
+                </footer>
+            </body>
+        </html>
